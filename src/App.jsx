@@ -1,8 +1,13 @@
+import Navbar from "./components/Navbar"
+import Main from "./components/Main"
+import "./App.css"
 
-function App()
-{
-  return(
-    <h1>My App</h1>
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Main />
+    </>
   )
 }
 
